@@ -1,0 +1,51 @@
+--Ejercicios If/Else -- 
+
+*******************
+! Ayudantía 28-03 !     --Contenidos-- Variables numéricas, If/Else, operaciones matemáticas
+*******************
+
+-> Revisión ejercicio laboratorio
+
+1. Utilizar: operaciones, paridad, positividad, múltiplos, if-else
+
+Cree un programa que reciba un número entero y lo clasifique. Debe:
+- decir si el número es positivo, negativo o cero.
+- decir si el número es mayor que 10.
+- decir si el número es múltiplo de 5.
+- recibir otro número y sumarlo con el recibido anteriormente, mostrar en pantalla.
+- mostrar si el número es par o impar.
+
+Ejemplo de output:
+"El numero es positivo.
+ El numero es par.
+ El numero es multiplo de 5.
+ El numero es mayor que 10."
+
+
+2. Utilizar: if-else, porcentajes
+
+Se crea un programa que recibe el precio de un producto y la edad del cliente.
+Si el cliente es mayor de 18 años y su producto vale más de 2500, obtiene un 5% de descuento.
+Si el cliente es mayor de 18 años y su producto vale más de 5000, obtiene un 10% de descuento.
+Si el cliente es menor de 18 años y su producto vale menos de 5000, obtiene un 15% de descuento.
+Si el cliente es menor de 18 años y su producto vale más de 5000, obtiene un 20% de descuento.
+
+Imprima el valor del producto en cada caso.
+
+3. Utilizar: if-else, float, promedios
+
+Se reciben las estaturas (float) de tres alumnos.
+- Muestre la estatura más baja.
+- Muestre el promedio de las estaturas.
+
+4. En un programa de inicio de sesión, usted debe registrar si el PIN es correcto para ingresar.
+El valor del PIN correcto es "4245", además, el usuario debe tener 26 años. Muestre:
+
+- si puede ingresar
+- si no puede ingresar
+
+5. Utilizar: if-elseif-else
+
+Se registran los puntajes de una carrera (4). Los puntajes deben ser mayores a 100 para ganar. Solo
+hay un ganador, por lo que importa el orden de llegada. EL primero en cumplir un puntaje mayor a 
+100 según el orden de llegada, gana la carrera. Indique el ganador.
