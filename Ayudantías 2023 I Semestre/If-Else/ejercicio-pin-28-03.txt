@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+/*
+la edad debe ser 26 y el pin 4245 para
+ingresar.
+*/
+
+int main() {
+    int edad, pin;
+    
+    cout <<"Ingrese su edad: "<<endl;
+    cin>>edad;
+    
+    if(edad==26){
+        
+        if(pin==4246){
+            cout<<"Bienvenido!"<<endl;
+        }else{
+            cout<<"Error!"<<endl;
+        }
+        
+    }else{
+        cout<<"Error!"<<endl;
+    }
+
+    return 0;
+}
