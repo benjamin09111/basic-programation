@@ -1,0 +1,101 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+#include<string>
+
+int main() {
+    int p1,p2,p3;
+    string c1,c2,c3,n1,n2,n3;
+    int eleccion;
+    int pagar;
+    
+    cout<<"Ingrese el precio del producto 1:"<<endl;
+    cin>>p1;
+    
+    cout<<"Ingrees el nombre del producto 1:"<<endl;
+    cin>>n1;
+    
+    cout<<"Ingrees el codigo del producto 1:"<<endl;
+    cin>>c1;
+    
+    
+    
+    cout<<"Ingrese el precio del producto 2:"<<endl;
+    cin>>p2;
+    
+    cout<<"Ingrees el nombre del producto 2:"<<endl;
+    cin>>n2;
+    
+    cout<<"Ingrees el codigo del producto 2:"<<endl;
+    cin>>c2;
+    
+    cout<<"Ingrese el precio del producto 3:"<<endl;
+    cin>>p3;
+    
+    cout<<"Ingrees el nombre del producto 3:"<<endl;
+    cin>>n3;
+    
+    cout<<"Ingrees el codigo del producto 3:"<<endl;
+    cin>>c3;
+
+    cout<<"TIENDA DE JULIO"<<endl;
+    cout<<"1) "<<n1<<" Precio: "<<p1<<endl;
+    cout<<"2) "<<n2<<" Precio: "<<p2<<endl;
+    cout<<"3) "<<n3<<" Precio: "<<p3<<endl;
+    
+    cin>>eleccion;
+    
+    switch(eleccion){
+        case 1:
+            cout<<"El precio final es: "<<p1*0.75<<endl;
+            
+            cout<<"Ingrese dinero a pagar: "<<endl;
+            
+            cin>>pagar;
+            
+            if(pagar>=p1*0.75){
+                cout<<"Recibido."<<endl;
+                cout<<"Vuelto: "<<pagar-(p1*0.75)<<endl;
+            }else{
+                cout<<"No le alcanza."<<endl;
+            }
+            
+            break;
+            
+        case 2:
+            cout<<"El precio final es: "<<p1*0.7<<endl;
+            
+            cout<<"Ingrese dinero a pagar: "<<endl;
+            
+            cin>>pagar;
+            
+            if(pagar>=p1*0.7){
+                cout<<"Recibido."<<endl;
+                cout<<"Vuelto: "<<pagar-(p1*0.7)<<endl;
+            }else{
+                cout<<"No le alcanza."<<endl;
+            }
+            break;
+            
+            case 3:
+                cout<<"El precio final es: "<<p1*0.6<<endl;
+            
+                cout<<"Ingrese dinero a pagar: "<<endl;
+            
+                cin>>pagar;
+            
+                if(pagar>=p1*0.6){
+                    cout<<"Recibido."<<endl;
+                    cout<<"Vuelto: "<<pagar-(p1*0.6)<<endl;
+                }else{
+                    cout<<"No le alcanza."<<endl;
+                }
+            
+            break;
+        default:
+            cout<<"Mal ingresado."<<endl;
+            break;
+    }
+
+    return 0;
+}
