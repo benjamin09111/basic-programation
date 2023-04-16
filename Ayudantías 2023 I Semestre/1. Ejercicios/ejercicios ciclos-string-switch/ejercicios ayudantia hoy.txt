@@ -1,0 +1,18 @@
+***EJERCICIOS AYUDANTÍA EXTRA***
+
+Contenidos:
+Interfaz simple con while y switch-usar corchetes en case (operaciones básicas, no se mantienen variables)
+Ciclo for, acumular, variables, operaciones, strings
+Ciclo for, evaluar numeros, caracteristicas,
+
+
+1.- Su profesor le ha consultado crear un programa que reciba el nombre de un alumno y calcule directamente su promedio.
+Al principio se indica cuántas notas tiene cada alumno. Muestre el promedio y el nombre del alumno.
+
+2.- Utilizando switch, cree una interfaz con las siguientes opciones: calcular potencia, mostrar n numeros al revés, terminar programa.
+
+3.- Un usuario le ingresará nombres y el codigos de producto, se detiene hasta ingresar un -1. Si el producto es mayor a
+2000, obtiene un 15% de descuento, mayor a 5000 obtiene un descuento del 20%, si menor a 2000 obtiene un 10% de descuento.
+
+4.- Sumar todas las notas de n alumnos y scar promedio.
+
