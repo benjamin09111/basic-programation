@@ -1,0 +1,33 @@
+EJERCICIOS PARA REFORZAR CONTENIDOS DE LA SOLEMNE
+
+1.- Un compañero ha descubierto distintos códigos.
+Usted debe decifrarlos. El usuario deja de ingresar
+códigos cuando ingresa un -1. Para decifrar:
+-	Obtenga los dos primeros numeros.
+-	Obtenga el ultimo numero.
+-	Obtenga el penultimo numero.
+Asuma que los códigos son mayores o iguales a 4 digitos.
+Sume estos tres numeros y muestre el resultado.
+
+2.- En un pueblo se han encontrado a cinco personas sin
+identificación. Se necesita obtener la información
+de cada uno:
+-	Si es mayor de edad y gana más de 5mil,
+	pertenece al grupo A.
+-	Si es menor de edad, pertenece al B.
+-	Si es mayor de edad y gana más de 2.5k,
+	pertenece al grupo C.
+
+3.- Una maquina puede recibir distintos precios y 
+obtener el descuento o aumento segun su grupo.
+El tope de la maquina para recibir productos es de 50.
+-	Si el precio es mayor a 25k y el codigo es
+	123, obtiene un 10% de descuento.
+-	Si el precio es menor a 2k, y el codigo es
+	124, obtiene un 20% de aumento.
+-	Si el precio es entre 2k y 25k, y el codigo
+	es 125, se obtiene un 5% de descuento.
+
+4.- Un usuario puede ingresar por pantalla 5
+precios de productos e indicar el descuento de cada
+uno. Muestre como resultado el descuento aplicado.
