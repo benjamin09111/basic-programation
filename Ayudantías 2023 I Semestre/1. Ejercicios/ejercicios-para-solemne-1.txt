@@ -1,0 +1,7 @@
+1. Un programa recibe códigos ingresados por pantalla. Se debe descifrar cada uno de estos códigos. El usuario ingresa por pantalla la cantidad. Para descifrar, debe sumar los dos primeros números con el penúltimo, y multiplicar el resultado por el último número. La maquina sólo funciona con códigos de cuatro dígitos. Además, para cada separacion, indique si el valor es par o no.
+
+2. Un programa recibe precios de productos y obtiene los descuentos según el precio. El usuario indica por pantalla el nombre y precio del producto, indicando antes la cantidad de productos a ingresar. Si el producto vale más de 5000 tiene un 30 por ciento de descuento. Mayor a 2500 tiene un 20 de descuento y menor a 2500 un 10 por ciento. El precio debe ser mayor a cero.
+Finalmente, muestre la suma de los precios.
+
+3. Se ingresan tres registros de personas dentro de una comuna. Estos ingresan su edad, salario y nombre. Usted debe indicar a qué grupo social pertenecen. Si es mayor de edad, y gana más de 500 mil, es del grupo A. Si es mayor de edad y gana menos de 500 mil, es del grupo B. Si gana más de 700 mil es del grupo C. Si es menor de edad es del grupo D. 
+Muestre por pantalla el grupo de los tres registros.
