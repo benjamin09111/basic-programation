@@ -1,0 +1,33 @@
+*EJERCICIOS ARREGLOS*
+
+1. Se ha formado una organización que se encarga de administrar los promedios de los alumnos de cada clase. Usted es el encargado de crear el programa para almacenar los promedios de cada sección del ramo, en este caso, Programación.
+
+- Su programa debe ser capaz de leer cada promedio que se ingresará de las n secciones.
+- Su programa debe mostrar el mayor y menor promedio de las secciones.
+- Su programa debe mostrar el promedio final de todas las secciones.
+- Su programa debe ser capaz de leer una nota y mostrar si es que alguna sección tiene ese promedio.
+
+Su programa debe funcionar de manera adecuada, por ejemplo, no es posible ingresar una nota bajo 1.0, en caso de que es ingrese, debe mostrar por pantalla que hay un error, e ingresar un cero.
+
+
+2. Usted tiene almacenado distintas cantidades de objetos (stock) en su tienda. Hay n productos en la tienda. Cada producto tiene un precio que depende del stock, si el stock es mayor a 5, el producto vale 500, en caso contrario, vale 350.
+Su programa debe ser capaz de:
+
+- El stock parte en cero.
+- Preguntar el stock a aumentar de cada producto estrella.
+- Aumentar stock de un producto estrella específico.
+- Realizar una compra, asumiendo que el cliente siempre pagará con el dinero justo. Debe disminuir el stock. En caso de no haber stock, imprima por pantalla.
+- Muestre por pantalla cuantos productos estrella tienen un stock mayor a n.
+- Es posible salir de la aplicación.
+
+3. Usted está encargado de crear un programa que administre el sistema de puntos de cada equipo de una competencia atlética. Hay n países que participan. La competencia parte con los puntajes en cero para cada país. Además, se tiene el registro de cada nombre del país. Pista: utilizar dos arreglos
+
+Su programa debe: 
+
+- Poder aumentar el puntaje de un país. Para esto, debe preguntar el nombre del país, y aumentar su puntaje en +100 puntos.
+- Mostrar todos los puntajes y cada país.
+- Preguntar por el nombre de un país y mostrar su puntaje.
+- Mostrar el ganador actual. Debe realizar el siguiente algoritmo, obtener el mayor puntaje, y luego obtener la cantidad de países que tienen ese puntaje, pues puede haber más de un ganador.
+- Opción para salir. 
+
+
