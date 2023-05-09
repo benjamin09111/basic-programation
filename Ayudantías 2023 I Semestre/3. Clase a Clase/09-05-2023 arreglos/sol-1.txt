@@ -1,0 +1,77 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+  cout<<"Ingrese la cantidad de secciones: "<<endl;
+  cin>>n;
+  
+  float secciones[n];
+  
+  for(int i=0; i<n; i++){
+      float nota;
+      cout<<"Ingrese la nota "<<i+1<<endl;
+      
+      if(nota>1){
+        secciones[i] = nota;
+      }else{
+        cout<<"Error."<<endl;
+        secciones[i] = 0;
+      }
+  } 
+  
+  float referencia = secciones[0];
+  for(int i=0; i<n; i++){
+      if(secciones[i]==0) continue; //si es cero me lo salto y paso al siguiente ciclo.
+      if(referencia<secciones[i]){
+        referencia = secciones[i];
+      }
+  }
+  cout<<"Mayor promedio: "<<referencia<<endl;
+  
+    for(int i=0; i<n; i++){
+        if(secciones[i]==0) continue;
+      if(referencia>secciones[i]){
+        referencia = secciones[i];
+      }
+  }
+  cout<<"Menor promedio: "<<referencia<<endl;
+  
+  
+  float promedioTotal = 0;
+  for(int i=0; i<n; i++){
+      promedioTotal = promedioTotal + secciones[i];
+  }
+  
+  cout<<"Promedio: "<<promedioTotal/n;
+  
+  float search;
+  cout<<"Ingrese nota a buscar: "<<endl;
+  cin>>search;
+  
+  bool encontrado=false;
+  
+  for(int i=0; i<n; i++){
+      if(secciones[i]==search){
+          encontrado = true;
+          break;
+      }      
+  }
+  
+  if(encontrado==true){
+    cout<<"Encontrado."<<endl;
+  }else{
+    cout<<"No encontrado."<<endl;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  return 0;
+}
