@@ -9,25 +9,28 @@
 
 Su programa debe funcionar de manera adecuada, por ejemplo, no es posible ingresar una nota bajo 1.0, en caso de que es ingrese, debe mostrar por pantalla que hay un error, e ingresar un cero.
 
+SIGUIENTES EJERCICIOS IDEALMENTE CON INTERFACES, PERO DEPENDE DEL PROGRAMADOR
 
-2. Usted tiene almacenado distintas cantidades de objetos (stock) en su tienda. Hay n productos en la tienda. Cada producto tiene un precio que depende del stock, si el stock es mayor a 5, el producto vale 500, en caso contrario, vale 350.
-Su programa debe ser capaz de:
+2. Usted tiene almacenado distintas cantidades de objetos (stock) en su tienda. Hay n productos en la tienda. Cada producto tiene un precio que depende del stock actual, si el stock es mayor a 5, cada producto vale 500, en caso contrario, vale 350. Además, se tiene otro registro de los nombres de cada producto.
+Su programa debe ser capaz de (mediante una interfaz):
 
-- El stock parte en cero.
-- Preguntar el stock a aumentar de cada producto estrella.
-- Aumentar stock de un producto estrella específico.
-- Realizar una compra, asumiendo que el cliente siempre pagará con el dinero justo. Debe disminuir el stock. En caso de no haber stock, imprima por pantalla.
-- Muestre por pantalla cuantos productos estrella tienen un stock mayor a n.
+-> Debe utilizar dos arreglos, uno de los nombres y otro de los stocks.
+
+- El stock inicial parte en cero.
+- Se debe preguntar el stock a aumentar de cada producto (se ingresa por pantalla el nombre).
+- Es posible aumentar stock de un producto específico (indicar el nombre del producto).
+- Realizar una compra, asumiendo que el cliente siempre pagará con el dinero justo. En caso de no haber stock, imprima por pantalla. Debe preguntar qué producto comprar, y mostrar el dinero a pagar. Finalmente debe disminuir el stock
+- Es posible mostrar por pantalla el nombre de los productos que tienen un stock mayor a n (ingresado por pantalla).
 - Es posible salir de la aplicación.
 
-3. Usted está encargado de crear un programa que administre el sistema de puntos de cada equipo de una competencia atlética. Hay n países que participan. La competencia parte con los puntajes en cero para cada país. Además, se tiene el registro de cada nombre del país. Pista: utilizar dos arreglos
+3. Usted está encargado de crear un programa que administre el sistema de puntos de cada equipo de una competencia de ajedrez. Hay n países que participan. La competencia parte con los puntajes en cero para cada país. Además, se tiene el registro de cada nombre del país. Debe utilizar dos arreglos, uno para los puntos y otro para los países.
 
 Su programa debe: 
 
 - Poder aumentar el puntaje de un país. Para esto, debe preguntar el nombre del país, y aumentar su puntaje en +100 puntos.
 - Mostrar todos los puntajes y cada país.
 - Preguntar por el nombre de un país y mostrar su puntaje.
-- Mostrar el ganador actual. Debe realizar el siguiente algoritmo, obtener el mayor puntaje, y luego obtener la cantidad de países que tienen ese puntaje, pues puede haber más de un ganador.
+- Mostrar el ganador actual (el país de mayor puntaje). Debe realizar el siguiente algoritmo: obtener el mayor puntaje, y luego obtener el nombre de los países que tienen ese puntaje, pues puede haber más de un ganador actualmente.
 - Opción para salir. 
 
 
