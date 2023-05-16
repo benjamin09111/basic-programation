@@ -1,0 +1,21 @@
+*EJERCICIOS ARREGLOS*
+
+1. Realice un programa que consulte la edad y el nombre de la persona. Se tienen dos
+arreglos, uno de edades y otro de los nombres respectivamente. Debe mostrar por 
+pantalla si la persona es capaz de ingresar a la fiesta, utilizando un bool.
+Para ingresar su nombre debe estar en la lista y debe ser mayor de edad.
+Muestre por pantalla si es posible que ingrese o no.
+
+2. Dentro de un arreglo, encuentre si es que hay dos números juntos iguales.
+
+3. De un arreglo dado, separe en dos arreglos de pares e impares. Si el usuario ingresará
+10 datos, por ejemplo, habrán cinco pares y cinco impares, asúmalo. Muestre ambos
+arreglos.
+
+4. Un doctor almacena las cantidades pendientes de sesiones con sus pacientes. El doctor posee
+cinco pacientes. Pida por pantalla que ingrese las sesiones restantes de cada uno. Se le pide:
+
+- Muestre cuántos pacientes le faltan más de 5 sesiones.
+- Muestre cuántos pacientes le faltan menos de 3 sesiones.
+- Pida por pantalla una posición y disminuya la sesión en uno. Si llega a cero,
+muestre por pantalla que el paciente está dado de alta.
