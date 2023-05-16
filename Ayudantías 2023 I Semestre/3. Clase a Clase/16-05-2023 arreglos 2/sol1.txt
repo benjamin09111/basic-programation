@@ -1,0 +1,48 @@
+*SOL 1*
+
+#include <iostream>
+using namespace std;
+
+/*
+1. Realice un programa que consulte la edad y el nombre de la persona. Se tienen dos
+arreglos, uno de edades y otro de los nombres respectivamente. Debe mostrar por 
+pantalla si la persona es capaz de ingresar a la fiesta, utilizando un bool.
+Para ingresar su nombre debe estar en la lista y debe ser mayor de edad.
+Muestre por pantalla si es posible que ingrese o no.
+*/
+
+int main() {
+    
+    string nombres[] = {"Juan","Pedro","Sofia"};
+    int edades[] = {24,15,21};
+    
+    string nombre;
+
+    cout<<"Ingrese su nombre: "<<endl;
+    cin>>nombre;
+    
+    bool encontrado=false;
+    int pos=-1;
+    
+    for(int i=0; i<3; i++){
+        if(nombres[i]==nombre){
+            encontrado=true;
+            pos=i;
+        }
+    }
+    
+    if(encontrado){
+        if(edades[pos]>=18){
+            cout<<"Puede ingresar."<<endl;
+        }else{
+            //ME FALTO AGREGAR EN LA AYUDANTIA
+            cout<<"No puede ingresar, no es mayor de edad."<<endl;
+        }
+    }else{
+        cout<<"No encontrado."<<endl;
+    }
+
+    
+
+    return 0;
+}
