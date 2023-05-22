@@ -1,0 +1,19 @@
+***EJERCICIOS MATRICES***
+
+1. Ingrese por pantalla una matriz con el orden que se
+ingresa también. Muestre la matriz por pantalla y
+muestre su diagonal.
+
+2. Se tiene una tabla 3x3 con la información:
+
+	  	P1	P2	P3 
+descuento1 	13000	4000	5000
+...	   	...	...	...	
+
+Obtenga el precio total de cada descuento.
+Indique el descuento que posee un valor de 4000.
+
+3. Ingrese por pantalla una matriz y obtenga la 
+suma de todos los pares, y luego la suma de todos
+los numeros impares. Asuma que se ingresan valores
+mayores o iguales a cero.
