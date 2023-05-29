@@ -1,0 +1,37 @@
+***REPASO LABORATORIO EJERCICIO***
+
+Se tiene la siguiente tabla
+
+				Roberto		Pedro		Sofia		Juan
+	Lunes		5			6			3			2	
+	Martes		6			7			9			5	
+	Jueves		2			4			5			7
+	Domingo		4			5			6			8
+
+Todos pertenecen a una empresa y son los productos que
+han vendido por días de trabajo (una semana).
+
+1.- Guarde la información en una matriz.
+2.- Productos totales vendidos por día.
+3.- Menor cantidad de productos vendidos.
+4.- Cada dia se vende los productos a un precio diferente.
+Asuma que solo se vende el mismo tipo de producto.
+Consulte por pantalla el precio y guarde en un arreglo.
+Con esta información, calcule el promedio del precio
+ganado por la empresa en toda la semana.
+
+***EJERCICIOS FUNCIONES***
+
+Cree una función que reciba un arreglo y un nombre,
+retorne verdadero o falso en caso de encontrar ese 
+nombre en el arreglo.
+
+Cree una función que muestre por pantalla la potencia
+de un numero.
+
+Ejercicio para hacer:
+
+Cree una función que reciba un arreglo de promedios y 
+retorne el promedio total. Además, cree
+otra función que recibe el arreglo pero ahora imprime por
+pantalla la mayor nota del arreglo.
