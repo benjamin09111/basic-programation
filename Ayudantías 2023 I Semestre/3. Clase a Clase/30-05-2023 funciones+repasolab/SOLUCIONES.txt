@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+/*
+Cree una función que reciba un arreglo de promedios y 
+retorne el promedio total. Además, cree
+otra función que recibe el arreglo pero ahora imprime por
+pantalla la mayor nota del arreglo.
+*/
+
+float retornarPromedio(float arreglo[], int n){
+  
+  float promedio = 0;
+  
+  for(int i=0; i<n; i++){
+    promedio = promedio + arreglo[i];
+  }
+  
+  return promedio/n;
+  
+}
+
+void imprimirMayorNota(float arreglo[], int n){
+  
+  float referencia = 0;
+  
+  for(int i=0; i<n; i++){
+    
+    if(referencia < arreglo[i]){
+      referencia = arreglo[i];
+    }
+    
+  }
+  
+  cout<<"La mayor nota es: "<<referencia<<endl;
+  
+}
+
+int main() 
+{
+    cout << "Hello, World!";
+    return 0;
+}
