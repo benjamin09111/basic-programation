@@ -18,7 +18,9 @@ han vendido por días de trabajo (una semana).
 Asuma que solo se vende el mismo tipo de producto.
 Consulte por pantalla el precio y guarde en un arreglo.
 Con esta información, calcule el promedio del precio
-ganado por la empresa en toda la semana.
+ganado por la empresa en toda la semana y guarde en un variable.
+5.- HACER EN CLASE -> obtenga el promedio de la cantidad de 
+productos vendidos en toda la semana. Muestre por pantalla.
 
 ***EJERCICIOS FUNCIONES***
 
