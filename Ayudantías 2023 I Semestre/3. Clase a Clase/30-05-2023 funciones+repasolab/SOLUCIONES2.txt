@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+bool findName(string name, string array[], int n){
+  
+  for(int i=0; i<n; i++){
+    if(array[i]==name){
+      return true;
+    }
+  }
+  
+  return false;
+}
+
+int main() 
+{
+    string array[] = {"Pepe","Juan","Alejandra","Toto"};
+    
+    bool resultado = findName("Alejandra",array,4);
+    
+    if(resultado) cout<<"Encontrado."<<endl;
+    else cout<<"No encontrado."<<endl;
+    
+    return 0;
+}
