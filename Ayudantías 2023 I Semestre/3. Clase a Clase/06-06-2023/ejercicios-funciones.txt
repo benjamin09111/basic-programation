@@ -1,0 +1,35 @@
+***EJERCICIOS DE FUNCIONES***
+
+1. Cree la función que recibe un arreglo de nombres de libros y un nombre a buscar.
+Retorne verdadero o falso en caso de que exista ese libro. Cree una función similar,
+pero ahora retorna la posición del libro encontrado.
+
+bool function(int array[], int n){
+	
+	for(int i=0; i<n; i++){
+		
+		for(int j=0; j<n; j++){
+			
+			if(i==j) continue;
+			
+			if(array[i]==array[j]){
+				return true;
+			}
+			
+		}
+		
+	}
+	
+	return false;
+}
+
+
+2. Cree una función que resuelva una ecuación cuadrática, debe ingresar los
+valores de "a" "b" y "c".
+
+3. Cree una función que retorne true si es que existen datos repetidos en un
+arreglo que se recibe. Utilice dos ciclos.
+
+4. En clase: cree una función que reciba una matriz y retorne la suma de
+todos sus elementos (int).
+
