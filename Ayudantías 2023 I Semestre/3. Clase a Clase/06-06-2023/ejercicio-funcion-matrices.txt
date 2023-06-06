@@ -1,0 +1,13 @@
+Cree una función que recibe los asientos de una
+sala de cine. Estos se representan en ocupados y 
+no ocupados.
+Cree la función Recuento que recibe una matriz
+nxm y el precio de cada asiento. Esta debe
+retornar el monto total de los asientos ocupados.
+
+En el main, muestre el total recaudado y la
+cantidad de entradas vendidas, además de consultar
+lo necesario. Tambien puede mostrar la cantidad 
+desocupada de asientos.
+
+Haga lo necesario para cumplir con el ejercicio.
