@@ -1,0 +1,26 @@
+Un hospital lo ha contratado para identificar
+diferentes patologías psicológicas. Su trabajo 
+es crear una aplicación que pueda identificar
+la patología de un paciente y obtener
+el grupo al que pertenece al clasificarlo.
+Para eso, cree una función que recibe un
+arreglo de pacientes y otro arreglo de los
+nombres de cada uno. Debe mostrar por 
+pantalla el nombre del paciente y al grupo
+que pertenece. Todas las patologías son
+diferentes.
+	Grupo A: Esquizoide, Paranoide
+	Grupo B: Histrionico, Limite
+	Grupo C: Evasivo, Dependiente
+
+
+
+
+
+
+
+
+
+
+
+
