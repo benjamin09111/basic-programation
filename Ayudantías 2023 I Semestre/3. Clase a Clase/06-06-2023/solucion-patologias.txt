@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+void clasificar(string nombres[], string patologias[], int n){
+  for(int i=0; i<n; i++){
+    if(patologias[i]=="Esquizoide" or patologias[i]=="Paranoide"){
+      
+    }
+    if(patologias[i]=="Histrionico, " or patologias[i]=="Limite"){
+      
+    }
+    if(patologias[i]=="Evasivo" or patologias[i]=="Dependiente"){
+      
+    }
+  }
+}
+
+int main() {
+  //esto es solamente para ver si la funcion
+  //realiza su funcion correctamente.
+string n[] = {"Juan","Pedro","Pepe"};
+string p[] = {"Esquizoide","Limite","Evasivo"};
+
+//llamar a la funcion
+clasificar(n,p,3);
+
+return 0;}
+
+
+
+
