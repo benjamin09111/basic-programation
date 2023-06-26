@@ -1,0 +1,44 @@
+Dejar que los alumnos lo hagan en clase.
+
+***EJERCICIO UNO***
+
+Una fabrica de productos lo ha contratado para 
+realizar una aplicación de ajuste de inventario,
+stock y analizar ciertos productos.
+
+La aplicación es capaz de recibir información de 
+los nombres de los n productos y sus n precios,
+según el precio de cada uno se calculan diferentes
+descuentos, que depende de una variable del día.
+
+- Cree la función llenar que permite almacenar
+los datos de los precios y los nombres.
+- Cree la función modificar que permite alterar
+los precios de los productos. Si el producto vale
+más de 5000, obtiene un descuento del 15%. Además,
+retorne la cantidad de precios alterados.
+- Cree la función buscar que recibe un nombre de un
+producto y obtiene su precio.
+- Cree la función comprar que busca un producto y ve
+si el usuario puede pagarlo. Muestre por pantalla
+el vuelto.
+
+***EJERCICIO DOS***
+
+Un doctor independiente le pide realizar una aplicación
+para llevar registro de sus pacientes. Se le pide:
+
+- Cree una función que recibe los datos del paciente: nombre,edad,
+tipo de sangre. Si es mayor de edad, se le agregará un precio de 1500
+a la hora de pagar (ojo: tener en cuenta precio acumulado). Muestre
+los datos por pantalla, escribiendo si es mayor de edad o no.
+- Cree una función que aumente la cantidad de pacientes atendidos.
+- Cree una función que aumenta el dinero acumulado del doctor, 
+recibiendo el precio pagado por el paciente.
+- Cree una función que verifica la clase que pertenece el paciente,
+pudiendo ser A, B o C. Según esto, el doctor receta respectivamente
+el medicamento D, E o F. Muestre por pantalla el resultado.
+
+
+
+
