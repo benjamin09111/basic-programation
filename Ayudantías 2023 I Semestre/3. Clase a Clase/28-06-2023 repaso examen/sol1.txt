@@ -1,0 +1,58 @@
+#include <iostream>
+using namespace std;
+
+
+void llenar(int *precios, string *nombres, int n){
+    for(int i=0; i<n; i++){
+        cout<<"Ingrese nombre del producto: "<<endl;
+        cin>>nombres[i];
+        cout<<"Ingrese precio del producto: "<<endl;
+        cin>>precios[i];
+    }
+}
+
+int alterar(int *precios, int n){
+    int contador=0;
+    for(int i=0; i<n; i++){
+        if(precios[i] > 5000){
+            precios[i] = precios[i]*0.85;
+            contador++;
+        }
+    }
+    return contador;
+}
+
+void buscar(int *precios, string *nombres, int n, string buscar){
+    for(int i=0; i<n; i++){
+        if(nombres[i] == buscar){
+            cout<<"El precio de "<<buscar<<" es de "<<precios[i]<<" pesos."<<endl;
+            break;
+        }
+    }
+}
+
+void pagar(int *precios, string *nombres, int n, string buscar, int dinero){
+    int pagar=0;
+    
+    for(int i=0; i<n; i++){
+        if(nombres[i] == buscar){
+            pagar = precios[i];
+        }
+    }
+    
+    if(pagar == 0){
+         cout<<"No existe ese producto."<<endl;
+    }else{
+        if(pagar <= dinero){
+            cout<<"Gracias, su vuelto es de: "<<dinero-pagar<<endl;
+        }else{
+            cout<<"No tiene dinero suficiente."<<endl;
+        }
+    }
+    
+}
+
+
+int main(){
+    return 0;
+}

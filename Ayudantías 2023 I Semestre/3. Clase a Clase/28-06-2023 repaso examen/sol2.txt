@@ -1,0 +1,53 @@
+#include <iostream>
+using namespace std;
+
+
+void recibir(int &aumento){
+    int edad;
+    string nombre,sangre;
+    
+    cout<<"Ingrese su nombre: "<<endl;
+    cin>>nombre;
+    cout<<"Ingrese su edad: "<<endl;
+    cin>>edad;
+    cout<<"Ingrese su tipo de sangre: "<<endl;
+    cin>>sangre;
+    
+    cout<<"Nombre: "<<nombre<<endl;
+    cout<<"Edad: "<<edad<<endl;
+    if(edad>=18){
+        cout<<"Mayor de edad: si"<<endl;
+        aumento = 1500;
+    }else{
+        cout<<"Mayor de edad: no"<<endl;
+    }
+    cout<<"Sangre: "<<sangre<<endl;
+    
+}
+
+void pacientesAtendidos(int &atendidos, int nuevos){
+    atendidos = atendidos+nuevos;
+}
+
+void pago(int &dinero, int apagar, int aumento){
+    apagar = apagar + aumento;
+    dinero = dinero + apagar;
+}
+
+void clase(char clase){
+    if(clase == 'A'){
+        cout<<"Medicamento a dar: D"<<endl;
+    }
+    else if(clase == 'B'){
+        cout<<"Medicamento a dar: E"<<endl;
+    }
+    else if(clase == 'C'){
+        cout<<"Medicamento a dar: F"<<endl;
+    }else{
+        cout<<"No pertenece a ninguna clase para dar medicamento."<<endl,
+    }
+}
+
+int main(){
+    return 0;
+}
