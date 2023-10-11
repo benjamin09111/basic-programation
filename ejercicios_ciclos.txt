@@ -1,0 +1,40 @@
+1. Un alumno desea calcular su promedio final. Para eso, ingresa N notas por pantalla.
+Obtenga el promedio final. Además, permita saber cuántas notas están por sobre 4 y 
+cuántas no. Finalmente, muestre por pantalla si el alumno aprueba el curso o no.
+
+Si no aprueba, puede responder la siguiente pregunta: 3x7. Tiene un máximo de 3 
+intentos para responder (se pregunta 3 veces). Si los intentos se acaban, reprueba seguramente matemática.
+Si logra responder correctamente, aprueba el curso. 
+
+2. Una computadora es capaz de recibir números positivos por pantalla. Es capaz de
+decir cuántos pares e impares se han ingresado, la suma total todos los números,
+el mayor de ellos y el menor también.
+
+3. Una tienda recibe N productos por pantalla. Para cada producto aplica un descuento
+de p y muestra su resultado final. Todos los productos se suman y se obtiene la 
+posible ganancia. Posteriormente, se recibe un precio límite y diferentes productos,
+se van recibiendo productos y se deja de pedir hasta que se ingrese un valor mayor
+al límite. Debe decir cuántos productos han sido ingresados menores al límite y
+mostrar el menor producto de ellos. Si el menor producto es menor
+a la mitad del límite, debe indicarlo por pantalla.
+
+4. Una tienda de helados debe buscar uno a uno el helado que le han pedido para vender.
+La máquina le va diciendo uno a uno los sabores, y cuando lo encuentra, recibe el precio
+del helado y se lo vende a la persona. Si se demoró más de N intentos en encontrarlo, 
+la persona recibe un descuento del 15% del helado. Si se demoró menos de M veces, el 
+vendedor deberá pagar una propina de 100 pesos. Muestre lo que debe pagar o lo sucedido.
+
+5. Una calculadora es capaz de calcular el factorial de un número y una potencia ingresada
+por el usuario.
+
+6. Cree un programa que permita imprimir un triángulo rectángulo de altura N con "*".
+
+7. Calcule un programa financiero que recibe el dinero a invertir, el interés que se 
+suma cada mes, y la cantidad de meses a esperar. El resultado puede ser superior a un
+valor esperado M o inferior. Todo esto depende de la cantidad ingresada. Calcule.
+
+8. Un profesor calcula el promedio del curso y la cantidad de alumnos que reprueban.
+El profesor no conoce la cantidad total de alumnos, pero sí sabe que para
+dejar de preguntar debe recibir un 0. Si existen más de 5 alumnos, el profesor debe 
+ser notificado por la aplicación. Finalmente, se le dice
+cuántas personas fueron ingresadas y cuántos alumnos pertenecen a la clase. 
