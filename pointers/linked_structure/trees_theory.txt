@@ -1,0 +1,63 @@
+****CONCEPTOS****
+
+Nodo: Elemento individual del árbol, tiene valor y referencias a hijos.
+Raíz: Nodo superior, los demás descienden de él.
+Hoja: Nodo sin hijos, es terminal.
+Subárbol: Componen al árbol, son árboles más pequeños.
+Altura: Longitud del camino más largo de un nodo hasta una hoja.
+Profundidad: Longitud desde la raiz a un nodo específico.
+Nivel: La profundidad de un nodo más uno. El nivel de la raíz es 1.
+Balanceado: Nodos están distribuidos de manera uniforme entre
+los diferentes niveles del árbol.
+
+****TIPOS DE ÁRBOLES****
+
+- Árbol Binario
+
+Cada nodo tiene máximo dos hijos.
+No hay restricción de orden.
+Usado para búsqueda y ordenamiento.
+Puede estar o no balanceado.
+
+- BST: Binary Search Tree
+
+Búsqueda eficiente, inserción y eliminación de datos O(log n)
+El izquierdo el menor que la cabeza.
+Suele estar más balanceado que el anterior.
+
+- AVL
+
+Este árbol está balanceado.
+Garantiza tiempos de búsqueda, inserción y eliminación logarítmicos.
+
+- Árbol Rojo-Negro
+
+Características: Otro tipo de árbol binario de búsqueda balanceado que cumple con propiedades de equilibrio adicionales basadas en el color de los nodos.
+Utilidad: Mantenimiento de un árbol balanceado para operaciones de inserción y eliminación.
+
+- Árbol B:
+
+Características: Un árbol balanceado en el que cada nodo puede tener múltiples hijos.
+Utilidad: Utilizado en bases de datos y sistemas de archivos para búsqueda y almacenamiento eficientes.
+
+- Árbol B+ y Árbol B-:
+
+Características: Variantes de árboles B que optimizan el rendimiento para operaciones de búsqueda y permiten un acceso eficiente a los datos.
+Utilidad: Ampliamente utilizados en sistemas de bases de datos y sistemas de archivos.
+
+
+- Árbol Trie (Radix Tree o Prefix Tree):
+
+Características: Utilizado para almacenar un conjunto de cadenas, donde cada nodo representa un prefijo común de las cadenas.
+Utilidad: Búsqueda eficiente de cadenas y operaciones relacionadas con el prefijo.
+
+
+- Árbol de Segmentos:
+
+Características: Utilizado para consultar y actualizar intervalos de datos en un arreglo.
+Utilidad: Ampliamente utilizado en problemas relacionados con consultas de intervalos, como en algoritmos de compresión de datos y aplicaciones de búsqueda espacial.
+
+- Árbol Heap (Montículo):
+
+Características: Un árbol binario especial donde el nodo padre es siempre mayor (en un montículo máximo) o menor (en un montículo mínimo) que los nodos hijos.
+Utilidad: Utilizado en estructuras de datos de prioridad para mantener el elemento más grande o más pequeño en la cima.

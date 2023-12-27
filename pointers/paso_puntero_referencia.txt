@@ -1,0 +1,3 @@
+&variable: Al pasar una variable por referencia utilizando el operador &, estás pasando la dirección de memoria de la variable ala función. Esto permite a la función acceder y modificar el contenido de la variable original en su ubicación en la memoria.
+
+*variable: Al pasar una variable como un puntero utilizando el operador *, estás pasando una copia del puntero, no la dirección real de la variable. El puntero apunta a la dirección de memoria donde se encuentra la variable original. Esto significa que la función puede acceder y modificar el contenido de la variable original a través del puntero.

@@ -1,0 +1,18 @@
+****ESTRUCTURAS STL****
+
+---Aprender con temas de memoria en las estructuras---
+
+Arreglo: Tiene el espacio fijo utilizado en la memoria.
+
+Vector: Como el arreglo pero dinámico.
+
+Deque: Es como el vector pero puede agregar y eliminar de cualquier lugar
+de manera más eficiente.
+
+*ESTRUCTURAS CON COMPARADOR*
+
+Existen estructuras que pueden contener un comparador para
+agregar sus datos, ordenándose automáticamente.
+
+*CUÁNDO USAR CADA UNO*
+
